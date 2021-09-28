@@ -1,0 +1,27 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+@media(min-width:760px){
+
+.parent {
+  font-size: 3rem;
+  display: flex;
+  align-items:flex-start;
+  background-color: blueviolet;
+  border: solid wheat;
+  flex-direction: row ;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.child {
+  border: 5px solid rebeccapurple;
+  padding: 2rem;
+  margin: 1%;
+  background-color: blue;
+  box-shadow: solid tomato;
