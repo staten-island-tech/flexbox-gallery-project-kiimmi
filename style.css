@@ -5,26 +5,47 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  
 }
 @media(min-width:760px){
 
+    #header {
+        text-align: center;
+        font-size: 5rem;
+        font-family: 'Righteous', cursive;
+        color: #277da1;
+    }
+body {
+  background-color:#dfe7fd ;
+}
+
 .parent {
+  font-family: 'Righteous', cursive;
   font-size: 3rem;
   display: flex;
   align-items:flex-start;
-  background-color: blueviolet;
-  border: solid wheat;
+  
   flex-direction: row ;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .child {
-  border: 5px solid rebeccapurple;
+  border: 5px solid #bee1e6;
+  text-align: center;
+  color: #277da1;
   padding: 2rem;
   margin: 1%;
-  background-color: blue;
-  box-shadow: solid tomato;
+  background-color: #f0efeb;
+  box-shadow: solid red 100px 50px 50px ;
+  width: 15rem
+  
+  ;
+}
+
+.gen-pics {
+  height: 15rem;
+  align-items: center;
 }
 
 }
