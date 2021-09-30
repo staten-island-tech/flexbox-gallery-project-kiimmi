@@ -11,7 +11,7 @@ body,
 
     #header {
         text-align: center;
-        font-size: 5rem;
+        font-size: 15rem;
         font-family: 'Righteous', cursive;
         color: #277da1;
     }
@@ -21,7 +21,7 @@ body {
 
 .parent {
   font-family: 'Righteous', cursive;
-  font-size: 3rem;
+  font-size: 5rem;
   display: flex;
   align-items:flex-start;
   
@@ -37,14 +37,14 @@ body {
   padding: 2rem;
   margin: 1%;
   background-color: #f0efeb;
-  box-shadow: solid red 100px 50px 50px ;
-  width: 15rem
-  
+  box-shadow:  #277da1 1rem 1rem 1rem ;
+  border-radius: 1rem;
+  width: 30rem
   ;
 }
 
 .gen-pics {
-  height: 15rem;
+  height: 30rem;
   align-items: center;
 }
 
