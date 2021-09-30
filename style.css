@@ -5,27 +5,25 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  
 }
-@media(min-width:760px){
 
-    #header {
-        text-align: center;
-        font-size: 15rem;
-        font-family: 'Righteous', cursive;
-        color: #277da1;
-    }
+#header {
+  text-align: center;
+  font-size: 15rem;
+  font-family: "Righteous", cursive;
+  color: #277da1;
+}
 body {
-  background-color:#dfe7fd ;
+  background-color: #dfe7fd;
 }
 
 .parent {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-size: 5rem;
   display: flex;
-  align-items:flex-start;
-  
-  flex-direction: row ;
+  align-items: flex-start;
+
+  flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -37,15 +35,12 @@ body {
   padding: 2rem;
   margin: 1%;
   background-color: #f0efeb;
-  box-shadow:  #277da1 1rem 1rem 1rem ;
+  box-shadow: #277da1 1rem 1rem 1rem;
   border-radius: 1rem;
-  width: 30rem
-  ;
+  width: 30rem;
 }
 
 .gen-pics {
   height: 30rem;
   align-items: center;
-}
-
 }
