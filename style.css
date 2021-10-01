@@ -29,9 +29,9 @@ body {
 }
 
 .child {
-  border: 5px solid white;
+  border: 5px solid rgb(185, 236, 238);
   text-align: center;
-  color: rgb(129, 187, 189);
+  color: rgb(185, 236, 238);
   padding: 3rem;
   margin: 2%;
   background-color: #f0efeb;
