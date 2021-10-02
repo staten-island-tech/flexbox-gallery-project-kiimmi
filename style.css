@@ -11,11 +11,13 @@ body,
   font-family: "Righteous", cursive;
   text-align: center;
   font-size: 15rem;
-  color: rgb(75, 173, 177);
+  color: rgb(174, 225, 245);
 }
 
 body {
   background-color: #dfe7fd;
+  background-image: url(back.png);
+  image-orientation: 50grad;
 }
 
 .parent {
@@ -31,7 +33,7 @@ body {
 .child {
   border: 5px solid rgb(185, 236, 238);
   text-align: center;
-  color: rgb(185, 236, 238);
+  color: rgb(75, 173, 177);
   padding: 3rem;
   margin: 2%;
   background-color: #f0efeb;
@@ -46,10 +48,51 @@ body {
   align-items: center;
 }
 
+.names:hover {
+  background-color: rgb(75, 173, 177);
+  color: white;
+  transition-timing-function: 2s;
+  border-radius: 1rem;
+}
+
 .child:hover {
   transform: scale(1.1);
   border-color: rgb(75, 173, 177);
   transition-property: all;
   box-shadow: #277da1 2rem 2rem 2rem;
   color: rgb(75, 173, 177);
+}
+
+.animation {
+  animation: test 10s infinite;
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+}
+type test after keyframes to make loading animation @keyframes test {
+  0% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
+  25% {
+    left: 50%;
+    bottom: 20%;
+    background-color: yellow;
+  }
+  50% {
+    left: 55%;
+    bottom: 20%;
+    background-color: green;
+  }
+  75% {
+    left: 55%;
+    bottom: 10%;
+    background-color: purple;
+  }
+  100% {
+    left: 50%;
+    bottom: 10%;
+    background-color: blue;
+  }
 }
