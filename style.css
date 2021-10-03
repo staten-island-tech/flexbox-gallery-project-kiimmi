@@ -1,25 +1,41 @@
 html,
-body,
-* {
+body, * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  
 }
 
 #header {
   font-family: "Righteous", cursive;
   text-align: center;
   font-size: 15rem;
-  color: rgb(174, 225, 245);
+  color: rgb(252, 224, 172);
 }
+
 
 body {
-  background-color: #dfe7fd;
-  background-image: url(back.png);
-  image-orientation: 50grad;
+  background-image: url(back.png) ;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+      opacity: .5;
+    }
+    75% {
+      opacity: .75;
+    }
+    100% {
+        opacity: 1;  
+    }
+}
+  
 .parent {
   font-family: "Righteous", cursive;
   font-size: 5rem;
@@ -28,12 +44,19 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
+}
+#click {
+  text-align: center;
+  font-size: 2rem;
+  color:rgb(174, 225, 245) ;
+  
 }
 
 .child {
-  border: 5px solid rgb(185, 236, 238);
+  border: 5px solid rgb(69, 108, 216);
   text-align: center;
-  color: rgb(75, 173, 177);
+  color: rgb(69, 108, 216);
   padding: 3rem;
   margin: 2%;
   background-color: #f0efeb;
@@ -48,51 +71,56 @@ body {
   align-items: center;
 }
 
-.names:hover {
-  background-color: rgb(75, 173, 177);
-  color: white;
-  transition-timing-function: 2s;
-  border-radius: 1rem;
-}
 
 .child:hover {
   transform: scale(1.1);
   border-color: rgb(75, 173, 177);
   transition-property: all;
-  box-shadow: #277da1 2rem 2rem 2rem;
+  transition: .5s;
+  box-shadow: #277da1 2rem 2rem 1rem;
   color: rgb(75, 173, 177);
+  border-radius: 5rem;
+  background-color: white;
 }
 
-.animation {
-  animation: test 10s infinite;
-  height: 2rem;
-  width: 2rem;
+.claymore {
+  animation: test 5s ;
   position: absolute;
+  width: 13rem;
+  margin-left: 90%;
 }
-type test after keyframes to make loading animation @keyframes test {
+
+@keyframes test {
   0% {
-    left: 50%;
-    bottom: 10%;
-    background-color: red;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 10%;
+    
   }
-  25% {
-    left: 50%;
-    bottom: 20%;
-    background-color: yellow;
-  }
-  50% {
-    left: 55%;
-    bottom: 20%;
-    background-color: green;
-  }
-  75% {
-    left: 55%;
-    bottom: 10%;
-    background-color: purple;
-  }
+  
   100% {
-    left: 50%;
-    bottom: 10%;
-    background-color: blue;
+    margin-left: 90%;
+    margin-top: 0%;
+    width: 10%;
   }
+}
+
+.catalyst {
+  animation: second 5s ;
+  position: absolute;
+  width: 13rem;
+  margin-left: 0%;
+}
+@keyframes second {
+  0% {
+    margin-left: 100%;
+    margin-top: 0%;
+    width: 10%;
+    
+  }
+  
+  100% {
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 10%;
 }
