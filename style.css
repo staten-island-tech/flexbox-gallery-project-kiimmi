@@ -11,13 +11,15 @@ body, * {
   font-family: "Righteous", cursive;
   text-align: center;
   font-size: 15rem;
-  color: rgb(252, 224, 172);
+  color: rgb(203, 237, 250);
 }
 
 
 body {
   background-image: url(back.png) ;
-  animation: fadeInAnimation ease 2s;
+  background-position: top;
+  background-size: 400rem;
+  animation: fadeInAnimation ease-in-out 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -54,7 +56,7 @@ body {
 }
 
 .child {
-  border: 5px solid rgb(69, 108, 216);
+  border: 5px solid rgb(174, 225, 245);
   text-align: center;
   color: rgb(69, 108, 216);
   padding: 3rem;
@@ -74,11 +76,11 @@ body {
 
 .child:hover {
   transform: scale(1.1);
-  border-color: rgb(75, 173, 177);
+  border-color: #fde267;
   transition-property: all;
   transition: .5s;
-  box-shadow: #277da1 2rem 2rem 1rem;
-  color: rgb(75, 173, 177);
+  box-shadow: #fd66387c 2rem 2rem 1rem;
+  color: #ff8e42;
   border-radius: 5rem;
   background-color: white;
 }
