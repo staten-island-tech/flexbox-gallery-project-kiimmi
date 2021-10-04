@@ -19,7 +19,7 @@ body {
   background-image: url(back.png) ;
   background-position: top;
   background-size: 400rem;
-  animation: fadeInAnimation ease-in-out 2s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -83,6 +83,7 @@ body {
   color: #ff8e42;
   border-radius: 5rem;
   background-color: white;
+  animation: ease-in-out;
 }
 
 .claymore {
