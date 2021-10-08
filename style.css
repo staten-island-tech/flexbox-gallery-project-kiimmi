@@ -8,7 +8,6 @@ body, * {
 }
 
 
-
 #genshin-header {
   font-family: "Righteous", cursive;
   text-align: center;
@@ -132,20 +131,29 @@ body {
 }
 
 @media (max-width:1200px) {
- p {
-   font-size: 5rem;
+ .child {
+   margin: 3%;
  }
 
 }
 @media (max-width:700px) {
-  p {
-    font-size:  4rem ;
+  .child {
+    margin: 5%;
   }
- 
+  #genshin-header {
+    font-size: 100px;
+  }
  }
  @media (max-width:600px) {
-  p {
-    font-size: 3rem;
+  .child {
+    margin: 10%;
   }
+  #genshin-header {
+    font-size: 80px;
+  }
+   #click {
+     font-size: 15px
+       
+   }
  
  }
