@@ -136,7 +136,7 @@ body {
  }
 
 }
-@media (max-width:700px) {
+@media screen and (max-width:768px) {
   .child {
     margin: 5%;
   }
