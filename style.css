@@ -7,7 +7,8 @@ body, * {
   
 }
 
-#header {
+
+#genshin-header {
   font-family: "Righteous", cursive;
   text-align: center;
   font-size: 15rem;
@@ -60,7 +61,7 @@ body {
   text-align: center;
   color: rgb(69, 108, 216);
   padding: 3rem;
-  margin: 2%;
+  margin: 3%;
   background-color: #f0efeb;
   box-shadow: #277da1 1rem 1rem 1rem;
   border-radius: 1rem;
@@ -88,7 +89,7 @@ body {
 .claymore {
   animation: test 5s ;
   position: absolute;
-  width: 13rem;
+  width: 10%;
   margin-left: 90%;
 }
 
@@ -110,7 +111,7 @@ body {
 .catalyst {
   animation: second 5s ;
   position: absolute;
-  width: 13rem;
+  width: 10%;
   margin-left: 0%;
 }
 @keyframes second {
@@ -126,3 +127,32 @@ body {
     margin-top: 0%;
     width: 10%;
 }
+}
+
+@media (max-width:1200px) {
+ .child {
+   margin: 3%;
+ }
+
+}
+@media screen and (max-width:768px) {
+  .child {
+    margin: 5%;
+  }
+  #genshin-header {
+    font-size: 100px;
+  }
+ }
+ @media (max-width:600px) {
+  .child {
+    margin: 10%;
+  }
+  #genshin-header {
+    font-size: 80px;
+  }
+   #click {
+     font-size: 15px
+       
+   }
+ 
+ }
